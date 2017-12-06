@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo App Test Automation Suite (Parameterization Test Suite)">
+
+	<test name="Yahoo App Test (Testing Parameterization)">
+	
+	<parameter name="env" value="QA"/>
+	
+	<parameter name="browser" value="chrome"/>
+	<parameter name="url" value="http://login.yahoo.com/"/>
+	<parameter name="emailId" value="catherine0602@yahoo.com"/>
+	<parameter name="passwd" value="Y_yun0416"/>
+	
+	
+		<classes>
+			<class name="TryTestNG.parameters.ParameterTest" />
+		</classes>
+		
+	</test>
+</suite>

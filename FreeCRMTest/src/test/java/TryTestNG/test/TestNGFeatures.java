@@ -1,0 +1,29 @@
+package TryTestNG.test;
+
+import org.testng.annotations.Test;
+
+public class TestNGFeatures {
+	
+	@Test
+	public void LoginTest() {
+		System.out.println("login Test");
+		//int i = 9/0;
+	}
+
+	@Test(dependsOnMethods = "LoginTest")
+	public void HomePageTest() {
+		System.out.println("Home Page Test");
+	}
+	
+	
+	@Test(dependsOnMethods = "LoginTest")
+	public void SearchPageTest() {
+		System.out.println("Search Page Test");
+	}
+	
+	@Test(dependsOnMethods = "LoginTest")
+	public void RegistrationPageTest() {
+		System.out.println("Registration Page Test");
+	
+}
+}

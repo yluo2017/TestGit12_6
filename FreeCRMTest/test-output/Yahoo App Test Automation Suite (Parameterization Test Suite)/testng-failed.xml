@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Yahoo App Test Automation Suite (Parameterization Test Suite)]">
+  <test name="Yahoo App Test (Testing Parameterization)(failed)">
+    <parameter name="passwd" value="Y_yun0416"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailId" value="catherine0602@yahoo.com"/>
+    <parameter name="env" value="QA"/>
+    <parameter name="url" value="http://login.yahoo.com/"/>
+    <classes>
+      <class name="TryTestNG.parameters.ParameterTest">
+        <methods>
+          <include name="yahooLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TryTestNG.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- Yahoo App Test (Testing Parameterization)(failed) -->
+</suite> <!-- Failed suite [Yahoo App Test Automation Suite (Parameterization Test Suite)] -->

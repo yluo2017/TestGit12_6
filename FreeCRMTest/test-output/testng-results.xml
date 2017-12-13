@@ -1,229 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35070" started-at="2017-12-06T10:19:41Z" finished-at="2017-12-06T10:20:16Z">
+  <suite name="Default suite" duration-ms="50432" started-at="2017-12-08T08:30:52Z" finished-at="2017-12-08T08:31:43Z">
     <groups>
+      <group name="Link Test">
+        <method signature="GoogleTest.mailLinkTest()[pri:3, instance:TryTestNG.test.GoogleTest@69ea3742]" name="mailLinkTest" class="TryTestNG.test.GoogleTest"/>
+      </group> <!-- Link Test -->
+      <group name="Test">
+        <method signature="GoogleTest.test1()[pri:4, instance:TryTestNG.test.GoogleTest@69ea3742]" name="test1" class="TryTestNG.test.GoogleTest"/>
+        <method signature="GoogleTest.test2()[pri:5, instance:TryTestNG.test.GoogleTest@69ea3742]" name="test2" class="TryTestNG.test.GoogleTest"/>
+        <method signature="GoogleTest.test3()[pri:6, instance:TryTestNG.test.GoogleTest@69ea3742]" name="test3" class="TryTestNG.test.GoogleTest"/>
+      </group> <!-- Test -->
+      <group name="Title">
+        <method signature="GoogleTest.GoogleTitleTest()[pri:1, instance:TryTestNG.test.GoogleTest@69ea3742]" name="GoogleTitleTest" class="TryTestNG.test.GoogleTest"/>
+      </group> <!-- Title -->
+      <group name="Logo">
+        <method signature="GoogleTest.googleLogoTest()[pri:2, instance:TryTestNG.test.GoogleTest@69ea3742]" name="googleLogoTest" class="TryTestNG.test.GoogleTest"/>
+      </group> <!-- Logo -->
     </groups>
-    <test name="Default test" duration-ms="35070" started-at="2017-12-06T10:19:41Z" finished-at="2017-12-06T10:20:16Z">
-      <class name="com.datadriven.test.HalfEbeyTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="setUp" is-config="true" duration-ms="6613" started-at="2017-12-06T02:19:42Z" finished-at="2017-12-06T02:19:48Z">
+    <test name="Default test" duration-ms="50432" started-at="2017-12-08T08:30:52Z" finished-at="2017-12-08T08:31:43Z">
+      <class name="TryTestNG.test.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="setUp" is-config="true" duration-ms="13357" started-at="2017-12-08T00:30:52Z" finished-at="2017-12-08T00:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="halfEbayRegPageTest" duration-ms="1674" started-at="2017-12-06T02:19:48Z" data-provider="getTestData" finished-at="2017-12-06T02:19:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tom]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Peter]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12,new street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[downtown]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94085.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[test1@gmail.com]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="GoogleTitleTest()[pri:1, instance:TryTestNG.test.GoogleTest@69ea3742]" name="GoogleTitleTest" duration-ms="19" started-at="2017-12-08T00:31:06Z" finished-at="2017-12-08T00:31:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- halfEbayRegPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="tearDown" is-config="true" duration-ms="666" started-at="2017-12-06T02:19:50Z" finished-at="2017-12-06T02:19:51Z">
+        </test-method> <!-- GoogleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="tearDown" is-config="true" duration-ms="944" started-at="2017-12-08T00:31:06Z" finished-at="2017-12-08T00:31:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="setUp" is-config="true" duration-ms="6082" started-at="2017-12-06T02:19:51Z" finished-at="2017-12-06T02:19:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="setUp" is-config="true" duration-ms="6511" started-at="2017-12-08T00:31:07Z" finished-at="2017-12-08T00:31:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="halfEbayRegPageTest" duration-ms="1548" started-at="2017-12-06T02:19:57Z" data-provider="getTestData" finished-at="2017-12-06T02:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Reshma]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[K]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[13,new street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[downtown]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94086.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[test2@gmail.com]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="googleLogoTest()[pri:2, instance:TryTestNG.test.GoogleTest@69ea3742]" name="googleLogoTest" duration-ms="225" started-at="2017-12-08T00:31:13Z" finished-at="2017-12-08T00:31:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- halfEbayRegPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="tearDown" is-config="true" duration-ms="661" started-at="2017-12-06T02:19:58Z" finished-at="2017-12-06T02:19:59Z">
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="tearDown" is-config="true" duration-ms="668" started-at="2017-12-08T00:31:13Z" finished-at="2017-12-08T00:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="setUp" is-config="true" duration-ms="6080" started-at="2017-12-06T02:19:59Z" finished-at="2017-12-06T02:20:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="setUp" is-config="true" duration-ms="5834" started-at="2017-12-08T00:31:14Z" finished-at="2017-12-08T00:31:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="halfEbayRegPageTest" duration-ms="1644" started-at="2017-12-06T02:20:05Z" data-provider="getTestData" finished-at="2017-12-06T02:20:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Anirudh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[D]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[14,new street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[downtown]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94087.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[test3@gmail.com]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="mailLinkTest()[pri:3, instance:TryTestNG.test.GoogleTest@69ea3742]" name="mailLinkTest" duration-ms="55" started-at="2017-12-08T00:31:20Z" finished-at="2017-12-08T00:31:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- halfEbayRegPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="tearDown" is-config="true" duration-ms="671" started-at="2017-12-06T02:20:07Z" finished-at="2017-12-06T02:20:07Z">
+        </test-method> <!-- mailLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="tearDown" is-config="true" duration-ms="710" started-at="2017-12-08T00:31:20Z" finished-at="2017-12-08T00:31:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="setUp" is-config="true" duration-ms="6532" started-at="2017-12-06T02:20:07Z" finished-at="2017-12-06T02:20:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="setUp" is-config="true" duration-ms="5973" started-at="2017-12-08T00:31:21Z" finished-at="2017-12-08T00:31:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="halfEbayRegPageTest" duration-ms="1680" started-at="2017-12-06T02:20:14Z" data-provider="getTestData" finished-at="2017-12-06T02:20:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Amreen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[T]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[15,new street]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[downtown]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Sunnyvale]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[94088.0]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[test4@gmail.com]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="test1()[pri:4, instance:TryTestNG.test.GoogleTest@69ea3742]" name="test1" duration-ms="1" started-at="2017-12-08T00:31:27Z" finished-at="2017-12-08T00:31:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- halfEbayRegPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.HalfEbeyTest@3159c4b8]" name="tearDown" is-config="true" duration-ms="655" started-at="2017-12-06T02:20:16Z" finished-at="2017-12-06T02:20:16Z">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="tearDown" is-config="true" duration-ms="689" started-at="2017-12-08T00:31:27Z" finished-at="2017-12-08T00:31:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.datadriven.test.HalfEbeyTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="setUp" is-config="true" duration-ms="5903" started-at="2017-12-08T00:31:27Z" finished-at="2017-12-08T00:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:5, instance:TryTestNG.test.GoogleTest@69ea3742]" name="test2" duration-ms="1" started-at="2017-12-08T00:31:33Z" finished-at="2017-12-08T00:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="tearDown" is-config="true" duration-ms="652" started-at="2017-12-08T00:31:33Z" finished-at="2017-12-08T00:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="setUp" is-config="true" duration-ms="7941" started-at="2017-12-08T00:31:34Z" finished-at="2017-12-08T00:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test3()[pri:6, instance:TryTestNG.test.GoogleTest@69ea3742]" name="test3" duration-ms="1" started-at="2017-12-08T00:31:42Z" finished-at="2017-12-08T00:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TryTestNG.test.GoogleTest@69ea3742]" name="tearDown" is-config="true" duration-ms="916" started-at="2017-12-08T00:31:42Z" finished-at="2017-12-08T00:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TryTestNG.test.GoogleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
